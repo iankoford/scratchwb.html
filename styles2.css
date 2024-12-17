@@ -1,0 +1,78 @@
+/* styles.css */
+
+/* Style 1: General font family and color */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;  /* Font family */
+    background-color: red;  /* Solid red background */
+    color: #333;  /* Font color */
+}
+
+/* Style 2: Header styling */
+header {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+    display: inline-block;
+    background-color: red;  /* Highlighted background */
+    color: white;  /* Title text color */
+    padding: 10px 20px;
+    font-size: 2em;
+    border-radius: 8px;
+}
+
+/* Style 3: Centering the content in each section */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style 4: Section block styling with padding */
+section {
+    padding: 50px 20px;
+    margin: 0;
+}
+
+/* Section 1 styling - Light Blue Background */
+#section1 {
+    background-color: #cce7ff;  /* Light Blue */
+}
+
+/* Section 2 styling - Light Orange Background */
+#section2 {
+    background-color: #ffcc99;  /* Light Orange */
+    padding: 40px 20px;  /* Padding inside Section 2 */
+}
+
+/* Section 3 styling (Tableau Section) - Light Gray Background */
+#section3 {
+    background-color: #f8f8f8;  /* Light Gray */
+    scroll-margin-top: 80px;  /* Adjust this value to match the space at the top of the page */
+    display: flex;  /* Flexbox for centering */
+    justify-content: center;  /* Centers content horizontally */
+    align-items: center;  /* Centers content vertically */
+    height: 600px;  /* Set a specific height for the section */
+    overflow: hidden;  /* Prevents overflow if the chart is too large */
+}
+
+/* Optional additional styles */
+.content-block {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
